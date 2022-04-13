@@ -62,10 +62,13 @@ on peut aussi generer le code sur le terminal par la commande  wsimport -s . htt
 ![image](https://user-images.githubusercontent.com/84719124/163245111-32e0283f-199a-4fab-b74f-674a6502122c.png)
 
 
+![image](https://user-images.githubusercontent.com/84719124/163245147-e1a6ac48-25b6-4e00-87ba-56783fa66203.png)
+
+![image](https://user-images.githubusercontent.com/84719124/163245525-a690bee1-bdf5-4bb8-b3ba-e817f5c8031e.png)
 
 
 ![image](https://user-images.githubusercontent.com/84719124/163245178-c439fc3a-8551-4bf0-ab77-a1e31ca80cfa.png)
 
 
 
-![image](https://user-images.githubusercontent.com/84719124/163245147-e1a6ac48-25b6-4e00-87ba-56783fa66203.png)
+
