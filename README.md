@@ -5,12 +5,16 @@ Dans cette partie on a creer un web service.
 Tout d'abord on a cree la classe Compte 
 pui ona cree la classe du web servive 'BanqueService' où on a ajouter les annotations  '@WebService' pour definir le web service, '@'@WebMethod' pour definir les methodes et '@WebParam' pour definir les paramatere 
 
+Puis on a cree la classe ServeurJax WS où on a donné l'url (adresse IP et numero de port)
+ et on a demarer le web service:
+ 
 ![image](https://user-images.githubusercontent.com/84719124/163244495-1d17c1ab-651b-4861-856e-01a347cdc5b4.png)
 
-si on ecrit sur le navigateur le url suivant " http://localhost:8686/BanqueWS?wsdl " il donne le WSDL
-
+si on ecrit sur le navigateur le url suivant " http://localhost:8686/BanqueWS?wsdl " il donne le WSDL qui sous forma d'un ficher XML qui port des information sur le web service :
 
 ![image](https://user-images.githubusercontent.com/84719124/163244560-90ced091-49b8-48cc-9ce5-a39e732f9ac2.png)
+
+Les paremetre sont declaré dans le schema XML :
 
  http://localhost:8686/?xsd=1
  
@@ -18,13 +22,14 @@ si on ecrit sur le navigateur le url suivant " http://localhost:8686/BanqueWS?ws
 
 
 miantenant on va tester le web service
-on a testé les methodes du web service en utilisant SoapUI
+on a testé les methodes du web service en utilisant SoapUI  où on a entré le WSDL
 
+le teste de la methode 'EuroToDH' :
 
 ![image](https://user-images.githubusercontent.com/84719124/163244667-e676ab2d-a356-43d2-b243-5af21bb15ca6.png)
 
 
-tester getcompte
+teste de getcompte
 
 
 ![image](https://user-images.githubusercontent.com/84719124/163244725-c7e7fc30-0354-40c9-97e1-9f01929a0a66.png)
