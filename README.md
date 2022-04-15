@@ -1,5 +1,9 @@
 # TP_Web_Service
 
+Dans cette partie on a creer un web service.
+
+Tout d'abord on a cree la classe Compte 
+pui ona cree la classe du web servive 'BanqueService' où on a ajouter les annotations  '@WebService' pour definir le web service, '@'@WebMethod' pour definir les methodes et '@WebParam' pour definir les paramatere 
 
 ![image](https://user-images.githubusercontent.com/84719124/163244495-1d17c1ab-651b-4861-856e-01a347cdc5b4.png)
 
