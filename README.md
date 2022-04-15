@@ -54,6 +54,7 @@ voici le test on voit qu'on a ignoré la date de creation :
 
 Apres on a creé un client java et on a generer un proxy(joue le role de STUP) à  partir du wsdl  en utilisant jaxWS qui joue le role de SKELETON puis on a creer la classe ClientWS ou on a creer la classe main 
 
+Voici le test de notre client web service :
 
 ![image](https://user-images.githubusercontent.com/84719124/163245023-5b5a87be-d75d-4380-99ca-06e41a699bde.png)
 
@@ -63,17 +64,21 @@ Apres on a creé un client java et on a generer un proxy(joue le role de STUP) �
 
 
 
-on peut aussi generer le code sur le terminal par la commande  wsimport -s . http://localhost:8686/BanqueWS?wsdl
-
+on peut aussi generer le code sur le terminal par la commande : 
+'wsimport -s . http://localhost:8686/BanqueWS?wsdl'
 
 
 ![image](https://user-images.githubusercontent.com/84719124/163245111-32e0283f-199a-4fab-b74f-674a6502122c.png)
 
 
+Puis on a cree un simple projet console om on a generé un name space à partir WSDl :
 ![image](https://user-images.githubusercontent.com/84719124/163245147-e1a6ac48-25b6-4e00-87ba-56783fa66203.png)
+
+Voici la classe qu'on a cree :
 
 ![image](https://user-images.githubusercontent.com/84719124/163245525-a690bee1-bdf5-4bb8-b3ba-e817f5c8031e.png)
 
+et voici le test :
 
 ![image](https://user-images.githubusercontent.com/84719124/163245178-c439fc3a-8551-4bf0-ab77-a1e31ca80cfa.png)
 
