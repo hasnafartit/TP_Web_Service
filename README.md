@@ -40,20 +40,19 @@ test listCompte
 ![image](https://user-images.githubusercontent.com/84719124/163244872-3baa4d7b-3d00-4b5f-a1fe-565493a60327.png)
 
 
-JaxB
-on a utilisé l'annotation @XmlRootElement pour convertir un Objet en XML
-l'annotation @XmlTransient est utilisé par defaut pour les getters et les setters et on a utilisé l'annotation @XmlAccessorType(XmlAccessType.FIELD) pour que l'annotation @XmlTransient soit utilisé directement sur les attributs c-à-d pour ignorer des attributs 
-
+Puis on a utilisé le mapping objet XML en utilisant la librairie JaxB 
+Dans la classe Compte on a utilisé l'annotation @XmlRootElement pour convertir un Objet en XML
+l'annotation @XmlTransient est utilisé par defaut pour igorer des getters et des setters et on a utilisé l'annotation @XmlAccessorType(XmlAccessType.FIELD) pour que l'annotation @XmlTransient soit utilisé directement sur les attributs c-à-d pour ignorer des attributs 
 
 ![image](https://user-images.githubusercontent.com/84719124/163244944-a8b3ffbf-55d0-41a9-8af8-1eba082ad49e.png)
+
+voici le test on voit qu'on a ignoré la date de creation :
 
 ![image](https://user-images.githubusercontent.com/84719124/163244963-e9706d10-a226-488a-b5e7-0538caecc336.png)
 
 
 
-Apres on a creé un client java
-jaxWS joue le role de SKELETON
-ET ON A generer un proxy(joue le role de STUP) à  partir du wsdl puis on a creer la classe ClientWS ou on a creer la classe main 
+Apres on a creé un client java et on a generer un proxy(joue le role de STUP) à  partir du wsdl  en utilisant jaxWS qui joue le role de SKELETON puis on a creer la classe ClientWS ou on a creer la classe main 
 
 
 ![image](https://user-images.githubusercontent.com/84719124/163245023-5b5a87be-d75d-4380-99ca-06e41a699bde.png)
